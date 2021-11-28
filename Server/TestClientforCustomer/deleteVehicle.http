@@ -1,0 +1,14 @@
+DELETE http://localhost:4000/app/customer/vehicle/addMyVehicle/6147904c1f2314dabb582b59
+content-Type: application/json
+
+{
+	"_id":"61515b255df883ab474c99fa",
+	"email":"kleum@gmail.com",
+	"vehNumber":"ClN28f51",
+    "vehType":"car",
+	"vehBrand":"Honda",
+	"color":"black",
+	"manufacturedYear":"1998",
+	"model":"7f7",
+    "image":"fsdlkfjsdkl"
+}

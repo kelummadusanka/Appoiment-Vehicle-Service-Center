@@ -1,0 +1,13 @@
+GET http://localhost:4000/app/service/getUpcommingService
+content-Type: application/json
+
+{
+    "email":"kelum@gmail.com",
+    "vehNumber":"CAR2325",
+    "vehType":"car",
+    "ServiceType":"Engine Service",
+    "Date":"2021-09-21",
+    "Time":"09-11"
+
+
+}

@@ -1,0 +1,12 @@
+GET  http://localhost:4000/app/service/getUpcommingService
+content-Type: application/json
+
+{
+	"email":"kelum@gmail.com",
+    "vehNumber":"CAR4512" ,
+    "vehType": "Car",
+    "ServiceType": "engine service",
+    "Verification": "pending",
+    "Time": "10-11",
+    "AddedDate": "2020-11-12"
+}

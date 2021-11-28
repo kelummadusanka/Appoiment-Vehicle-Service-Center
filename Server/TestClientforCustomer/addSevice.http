@@ -1,0 +1,13 @@
+POST http://localhost:4000/app/service/addUpcommingService
+content-Type: application/json
+
+{
+    "email":"ikelum@gmail.com",
+    "vehNumber":"CAM2663",
+    "vehType":"car",
+    "ServiceType":"Engine Service",
+    "Date":"2021-09-21",
+    "Time":"05-21"
+
+
+}

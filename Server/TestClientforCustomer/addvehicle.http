@@ -1,0 +1,13 @@
+POST http://localhost:4000/app/vehicle/addMyVehicle
+content-Type: application/json
+
+{
+	"email":"kleum@gmail.com",
+	"vehNumber":"ClN2851",
+    "vehType":"car",
+	"vehBrand":"Honda",
+	"color":"black",
+	"manufacturedYear":"1998",
+	"model":"7f7",
+	"image":"7f7"
+}
