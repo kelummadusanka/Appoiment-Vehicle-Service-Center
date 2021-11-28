@@ -1,0 +1,12 @@
+POST http://localhost:4000/app/signup
+content-Type: application/json
+
+{
+	"firstname":"kleum",
+	"lastname":"madusanka",
+	"address1":"b 25",
+	"city":"rambukknak",
+	"username":"kelum",
+	"email":"kleum@gmail.com",
+	"password":"123456"
+}
