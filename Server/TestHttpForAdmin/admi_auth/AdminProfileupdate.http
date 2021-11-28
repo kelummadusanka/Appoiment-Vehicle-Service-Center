@@ -1,0 +1,15 @@
+PATCH  http://localhost:4000/app/admin/auth/upadateAdminProfile
+content-Type: application/json
+
+{
+    "email":"kleum@gmail.com",
+    "firstname":"amila",
+    "lastname":"madusanka",
+    "email":"kelum@gmail.com",
+    "username":"kelum",
+    "address1":"B-25",
+    "city":"kandy",
+    "username":"kelum3",
+    "password":"123456"
+
+}

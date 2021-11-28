@@ -1,0 +1,9 @@
+PATCH http://localhost:4000/app/admin/AppoControlers/AdminUpdateService
+content-Type: application/json
+
+{
+    "_id": "615890a5d0f650e94ba6dc15",
+    "Status": "confirm",
+    "result": true
+
+}

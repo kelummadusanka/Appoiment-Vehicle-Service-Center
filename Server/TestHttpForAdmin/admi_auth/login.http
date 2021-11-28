@@ -1,0 +1,8 @@
+POST http://localhost:4000/app/admin/auth/adminSignIn
+content-Type: application/json
+
+{
+    "username":"kelum",
+    "password":"123456"
+
+}

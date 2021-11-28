@@ -1,0 +1,5 @@
+POST http://localhost:4000/app/admin/auth/AdminRegister
+content-Type: application/json
+
+
+{"firstname":"admin","lastname":"admin","address1":"address1","city":"city","username":"admin","email":"admin@gmail.com","password":"123456","profilePhoto":"/images/userProfile.png"}

@@ -1,0 +1,9 @@
+DELETE http://localhost:4000/app/admin/CutomerCotrolling/DeleteUser
+content-Type: application/json
+
+ {
+  
+  "params": {
+    "_id": "6156a9541051b52c730e848f"
+  }
+}
