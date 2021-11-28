@@ -1,0 +1,15 @@
+.CallToAction {
+    margin: 100px auto;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.CallToAction h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}

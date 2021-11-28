@@ -1,0 +1,281 @@
+.head_contact_us {
+    height: 75vh;
+    width: 100%;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.44)), url(images/callingCenter.jpg); */
+    background-position: top right;
+    background-size: cover;
+    position: relative;
+}
+
+.head_contact_us h1 {
+    color: #fff;
+    position: relative;
+    top: 35vh;
+}
+
+.Inspection_Checks {
+    margin: 0 10%;
+    margin-bottom: 100px;
+}
+
+.Inspection_Checks h1 {
+    margin: 50px 0;
+}
+
+.Inspection-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Inspection-col {
+    background-color: #D9D9D9;
+    margin: 1%;
+    padding: 30px;
+    display: flex;
+    box-sizing: border-box;
+    flex-basis: 48%;
+    min-height: 350px;
+}
+
+.Inspection-col-fig {
+    flex-basis: 50%;
+    display: flex;
+    margin: 0 30px;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+}
+
+.Inspection-col-fig img {
+    width: 100%;
+    height: auto;
+}
+
+.Inspection-dscp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 300px;
+    text-align: left;
+}
+
+.Inspection-dscp p {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.Inspection-dscp h3 {
+    text-align: left;
+}
+
+.Inspection-dscp h4 {
+    color: #006EAD;
+    margin-top: 30px;
+}
+
+.ES-col-fig {
+    flex-basis: 25%;
+    margin: 20px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* --------------------Engine Service-------------------------- */
+
+.EngineService {
+    margin-bottom: 100px;
+}
+
+.EngineService h1 {
+    margin: 50px 0;
+    margin-left: 10%;
+}
+
+.EngineService_Container {
+    background-color: #D9D9D9;
+    display: flex;
+    width: 78%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    min-height: 350px;
+}
+
+.top-container {
+    border-radius: 0 50px 0 0;
+    padding-left: 0;
+    margin-bottom: 20x;
+}
+
+.bottom-container {
+    border-radius: 0 0 0 50px;
+    flex-direction: row-reverse;
+    padding-right: 0;
+}
+
+.binder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*flex-basis: 30%;*/
+    position: relative;
+}
+
+
+/* .binder-right {
+    justify-self: right;
+} */
+
+.rectangle {
+    width: 120px;
+    height: 70px;
+    background-color: #006EAD;
+    display: flex;
+    align-items: center;
+}
+
+.rectangle-left {
+    border-radius: 0 35px 35px 0;
+}
+
+.rectangle-right {
+    border-radius: 35px 0 0 35px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+}
+
+.circle-left {
+    left: 55px;
+}
+
+.circle-right {
+    left: 10px;
+}
+
+.ES-col-fig {
+    flex-basis: 25%;
+    margin: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ES-col-fig img {
+    width: 100%;
+    height: auto;
+}
+
+.ES-dscp {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ES-dscp p {
+    margin: 40px 0;
+    padding: 0;
+}
+
+.ES-dscp h3 {
+    text-align: left;
+}
+
+.ES-dscp h4 {
+    color: #006EAD;
+}
+
+.con {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* ----------------Electronic Service-------------- */
+
+.ProfessionalElectronicSystemService {
+    margin: 0 10%;
+}
+
+.ProfessionalElectronicSystemService h1 {
+    margin: 50px 0;
+}
+
+.ElectronicService-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    min-height: 350px;
+}
+
+.ElectronicService-col {
+    background-color: #D9D9D9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.BSrowLeft {
+    border-radius: 50px 0 0 0;
+    flex-basis: 48%;
+}
+
+.BSrowRight {
+    border-radius: 0 50px 0 0;
+    flex-basis: 48%;
+}
+
+.BSrowbottom {
+    border-radius: 0 0 50px 50px;
+    flex-basis: 100%;
+}
+
+.BS-col-fig {
+    flex-basis: 25%;
+    margin: 20px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BS-col-fig img {
+    width: 100%;
+    height: auto;
+}
+
+.ElectronicService-dscp {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ElectronicService-dscp p {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.ElectronicService-dscp h3 {
+    text-align: left;
+}
+
+.ElectronicService-dscp h4 {
+    color: #006EAD;
+}

@@ -1,0 +1,122 @@
+.head-contact-us {
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    background-position: top right;
+    background-size: cover;
+    /*padding: 100px;*/
+    box-sizing: border-box;
+    position: relative;
+}
+
+.head-contact-us h1 {
+    color: #fff;
+    position: relative;
+    top: 35vh;
+}
+
+.contact-us {
+    margin: 0 10%;
+    width: 100%;
+    margin: auto;
+}
+
+.contact-us-row {
+    display: flex;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    padding: 100px 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-us-row2 {
+    flex-direction: row-reverse;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    background-blend-mode: multiply, multiply;
+}
+
+
+/* .contact-us-row2 .right {
+    margin-right: 350px;
+} */
+
+.contact-us-row img {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    max-height: 500px;
+    min-width: 500px;
+    min-height: 300px;
+    position: relative;
+}
+
+.contact-us-row-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: 100px 100px;
+}
+
+.contact-us-row-right h3 {
+    font-size: 20px;
+    margin: 5px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.contact-us-row-right p {
+    padding: 0;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.contact-us-row-right div {
+    display: flex;
+    align-items: left !important;
+    text-align: left;
+}
+
+div .fa {
+    font-size: 40px;
+    color: #006EAD;
+    right: 30px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.contact-us-row-left {
+    position: relative;
+}
+
+.NameTag {
+    width: 200px;
+    height: 70px;
+    background-image: linear-gradient( 284deg, rgba(255, 204, 0, 1) 53.7%, rgba(253, 168, 10, 1) 88.9%);
+    /*padding: 10px;*/
+    text-align: center;
+    border-radius: 45px 0 45px 0;
+    align-items: center;
+    font-size: 30px;
+    position: absolute;
+    bottom: 20px;
+    right: -100px;
+}
+
+.contact-us-row2 .NameTag {
+    position: absolute;
+    bottom: 20px;
+    left: -100px;
+}
+
+.contact-us-row2 p {
+    color: rgb(32, 42, 32);
+}
+
+.NameTag p {
+    margin: auto;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+}

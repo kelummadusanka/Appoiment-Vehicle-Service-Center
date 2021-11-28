@@ -1,0 +1,214 @@
+.head_contact_us {
+    height: 75vh;
+    width: 100%;
+    text-align: center;
+    background-position: top right;
+    background-size: cover;
+    /*padding: 100px;*/
+    box-sizing: border-box;
+    position: relative;
+}
+
+.head_contact_us h1 {
+    color: #fff;
+    position: relative;
+    top: 35vh;
+    margin: auto;
+}
+
+
+/* ------------------Choose vehicel type--------------------- */
+
+.add-your-vehicle {
+    margin: 50px 10%;
+}
+
+.AYV-your-vehicle-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.AYV-vehicle-col {
+    flex-basis: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15%;
+    /*border: 2px solid #0E9BF5;*/
+    max-width: 310px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.AYV-vehicle-col-radio {
+    display: none;
+}
+
+.AYV-vehicle-col .fa-check-circle {
+    transform: scale(0);
+    transition: 0.3s;
+}
+
+.AYV-vehicle-col-radio:checked+.fa-check-circle {
+    transform: scale(1.0);
+}
+
+.AYV-vehicle-col-img {
+    padding: 10px 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.AYV-vehicle-col-img img {
+    width: 70%;
+    height: auto;
+    max-height: 175px;
+    margin: auto;
+}
+
+.AYV-vehicle-col p {
+    margin: auto;
+    font-size: 32px;
+    font-weight: 900;
+    color: gray;
+    text-align: center;
+}
+
+
+/*---------------------vehicle Detail---------------------------*/
+
+.AYV-Vehicle-information {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.AYV-Vehicle-information-margin {
+    margin: 70px 10%;
+    padding: 30px 0;
+}
+
+.AYV-Vehicle-information-margin h1 {
+    margin: 10px 0 20px 0;
+}
+
+.AYV-Vehicle-information-row {
+    display: flex;
+}
+
+.AYA-information-form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.AYA-information-form h4 {
+    margin-bottom: 10px;
+}
+
+.AYA-information-form div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.AYA-information-form div:first-child {
+    flex-basis: 45%;
+}
+
+.AYA-information-form div:nth-child(2) {
+    flex-basis: 45%;
+}
+
+.AYA-information-form div:nth-child(3) {
+    flex-basis: 30%;
+}
+
+.AYA-information-form div:nth-child(4) {
+    flex-basis: 30%;
+}
+
+.AYA-information-form div:nth-child(5) {
+    flex-basis: 30%;
+}
+
+input {
+    opacity: 0.8;
+    padding: 7px;
+    font-size: 18px;
+}
+
+.Vehicle-Add-btn-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%)
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.Vehicle-Add-btn {
+    box-shadow: 0 0 20px #eee;
+    transition: 0.5s;
+    background: transparent;
+    /* background-image: linear-gradient( 135deg, #70F570 10%, #49C628 100%); */
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin: auto;
+    margin-top: 30px;
+    outline: none;
+    border: 5px solid yellow;
+    text-align: center;
+    justify-content: center;
+    transition: 0.2s;
+    cursor: pointer;
+    color: yellow;
+}
+
+.Vehicle-Add-btn:hover {
+    /* background: linear-gradient( 135deg, #70F570 10%, #49C628 100%); */
+    /* background-color: blue; */
+    /* border: 4px solid royalblue; */
+    font-size: 15px;
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
