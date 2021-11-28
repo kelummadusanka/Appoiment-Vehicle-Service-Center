@@ -1,16 +1,20 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+# Created by https://www.toptal.com/developers/gitignore/api/react
+# Edit at https://www.toptal.com/developers/gitignore?templates=react
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
 node_modules
+bower_components
 
-# Book build output
-_book
+*.sublime*
 
-# eBook build output
-*.epub
-*.mobi
-*.pdf
+psd
+thumb
+sketch
+
+# End of https://www.toptal.com/developers/gitignore/api/react
